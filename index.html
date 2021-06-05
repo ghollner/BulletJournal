@@ -1,100 +1,32 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <title>Bullet Journal</title>
-        <link href="journal.css" rel="stylesheet" type="text/css" />
-        <link rel="icon" type="image/x-icon" href="favicon.ico" />
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-        <!-- jQuery library -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <!-- Popper JS -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-        <!-- Latest compiled JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-    </head>
-    <body>
-        <header>
-            <div class="image">
-                <img src="images/baniere.jpg" alt="Banière du journal" />
-            </div>
-        </header>
-        <main role="main" class="index">
-            <section class="jumbotron text-center">
-                <div class="container">
-                    <h1 class="jumbotron-heading">Bienvenue</h1>
-                    <p class="lead text-muted">Je m'appelle Gwendoline et j'ai 20 ans. J'avais envie de réaliser un "BuJo" 
-                        mais étant donné mon niveau de dessin, je me suis vite rendu compte que ce n'était pas une bonne idée. 
-                        Cependant, étant amoureuse d'un garçon passionné d'informatique, il m'a transmis sa passion et j'apprend depuis quelques temps des langages informatiques. 
-                        Voilà donc comment ce journal en ligne est né !</p>
-                    <p>
-                        <a href="#" class="btn btn-secondary my-2">Mois précédent</a>
-                        <a href="mai.html" class="btn btn-danger my-2">Mois en cours</a>
-                    </p>
-                </div>
-            </section>
-            <div class="index">
-                <img src="images/2018.JPG" alt="2018" />
-            </div>
-            <br>
-            <div class="button">
-                <button type="button" class="btn btn-outline-danger" data-toggle="collapse" data-target="#demo">Calendrier de l'année</button>
-                <div id="demo" class="collapse">
-                    <img src="images/calendar.png" />
-                </div>
-            </div>
-            <div class="album py-5 bg-light">
-                <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                    <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" src="images/mai.jpg" alt="Card image mai" />
-                        <div class="card-body">
-                        <p class="card-text">Mois de <strong>Mai</strong> du Bullet Journal.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn">
-                                <a href="mai.html" class="btn btn-sm btn-outline-danger">Lire</a>
-                                <span class="badge badge-danger">New</span>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="col-md-4">
-                    <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" src="images/june.jpg" alt="Card image juin">
-                        <div class="card-body">
-                        <p class="card-text">Mois de <strong>Juin</strong> du Bullet Journal.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn">
-                                <a href="#" class="btn btn-sm btn-outline-danger">Lire</a>
-                                <span class="badge badge-danger">A venir</span>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="col-md-4">
-                    <div class="card mb-4 box-shadow">
-                        <img class="card-img-top" src="images/july.jpg" alt="Card image juillet">
-                        <div class="card-body">
-                        <p class="card-text">Mois de <strong>Juillet</strong> du Bullet Journal.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn">
-                                <a href="#" class="btn btn-sm btn-outline-danger">Lire</a>
-                                <span class="badge badge-danger">A venir</span> 
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-            </main>
-            <footer>
-                <p>Gwendoline Zim. H. 2018</p>
-            </footer>
-    </body>
+  <head>
+    <meta charset="utf-8">
+    <title>Bullet Journal</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <!-- Custom styles for this template -->
+    <link href="cover.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  </head>
+  <body class="text-center">
+      <main role="main" class="inner cover">
+        <h1 class="cover-heading">Bullet Journal</h1>
+        <p class="lead">
+          <a href="index.html" class="btn btn-lg btn-danger">Voir le journal</a>
+        </p>
+      </main>
+      <footer>
+        <div class="inner">
+          <p>Bullet Journal by Gwendoline Zim. H.</p>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
