@@ -1,0 +1,285 @@
+/*Banière*/
+
+div.image img {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.image {
+    background-image: url(images/marbre.jpg)
+}
+
+/*Toutes les pages*/
+
+footer p {
+    text-align: right;
+}
+
+div>h2 {
+    text-align: center;
+    font-family: NewWaltDisney;
+    font-size: 5em;
+}
+
+/*Index*/
+
+div.index {
+    background-color: crimson;
+}
+
+div.index img {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.button {
+    text-align: center;
+}
+
+div>span {
+    margin-left: 20px;
+}
+
+/*Mai*/
+
+h2.calendrier {
+    text-align: center;
+    font-family: LeagueScript;
+    color: crimson;
+    font-weight: bold;
+    padding: 10px;
+}
+
+table td {
+    text-align: center;
+}
+
+/*Citation*/
+
+p.citation {
+    text-align: center;
+    font-family: NewWaltDisney;
+    color: crimson;
+    font-size: 7em;
+}
+
+/*Culture*/
+
+form.film {
+    display: inline-block;
+    border: dashed crimson;
+    margin: 10px;
+    padding: 20px;
+}
+
+form.book {
+    display: inline-block;
+    border: dashed dodgerblue;
+    margin: 10px;
+    padding: 20px;
+}
+
+form.serie {
+    display: inline-block;
+    border: dashed gold;
+    margin: 10px;
+    padding: 20px;
+}
+
+h2.cult+img {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*Voyage*/
+
+h2.titel+img {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Voyage+Wish*/
+
+li.gras {
+    font-weight: bold;
+}
+
+h3~h4 {
+    font-family: LeagueScript;
+}
+
+h3 {
+    text-align: center;
+}
+
+/*habitude*/
+
+.yes {
+    background-color: #c3e6cb;
+}
+
+.no {
+    background-color: #f5c6cb;
+}
+
+.moitie {
+    background-color: #ffeeba;
+}
+
+th {
+    font-weight: normal;
+}
+
+.table .thead-dark th {
+    vertical-align: middle;
+    text-align: center;
+}
+
+/*Humeur*/
+
+li.joie {
+    color:#99ff66;
+}
+
+td.joie{
+    background-color: #bbff99;
+}
+
+li.tranquilite {
+    color:#e6e600;
+}
+
+td.tranquilite {
+    background-color:#ffff80;
+}
+
+li.tristesse {
+    color:#80d4ff;
+}
+
+td.tristesse {
+    background-color:#b3e6ff;
+}
+
+li.surprise {
+    color:#ff884d;
+}
+
+td.surprise {
+    background-color:#ffbb99;
+}
+
+li.maladie {
+    color:#cc66ff;
+}
+
+td.maladie {
+    background-color:#dd99ff;
+}
+
+li.fatigue {
+    color: #ff6699;
+}
+
+td.fatigue {
+    background-color:#ff99bb;
+}
+
+li.stress {
+    color:#99998f;
+}
+
+td.stress {
+    background-color:#ebebe0;
+}
+
+li.colere {
+    color: #ff4d4d;
+}
+
+td.colere {
+    background-color: #ff9999;
+}
+
+li.degout {
+    color: #00ff55;
+}
+
+td.degout {
+    background-color: #99ffbb;
+}
+
+li.peur {
+    color:#6666ff;
+}
+
+td.peur {
+    background-color:#9999ff;
+}
+
+/*Humeur+sommeil*/
+
+h2.key+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Sommeil*/
+
+li.bien {
+    color:#28a745;
+}
+
+td.bien {
+    background-color:#c3e6cb;
+}
+
+li.moyen {
+    color:#ffc107;
+}
+
+td.moyen {
+    background-color:#ffeeba;
+}
+
+li.mal {
+    color:#dc3545;
+}
+
+td.mal {
+    background-color:#f5c6cb;
+}
+
+li.xmal {
+    color:#6c757d;
+}
+
+td.xmal {
+    background-color:#d6d8db;
+}
+
+/*Planner*/
+
+th {
+    text-align: center;
+}
+
+/*police d'écriture*/
+
+@font-face {
+    font-family: "LeagueScript";
+    src : url(police/LeagueScript.otf);
+        }
+
+@font-face {
+    font-family: "NewWaltDisney";
+    src : url(police/NewWaltDisney.ttf);
+        }

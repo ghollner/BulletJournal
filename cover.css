@@ -1,0 +1,23 @@
+body {
+    background-image: url("images/crayon.jpg");
+    background-repeat: no-repeat;
+    background-color:#e7d7da;
+}
+
+
+h1{
+    padding-top: 250px;
+    padding-bottom: 95px;
+    font-family: NewWaltDisney;
+    font-size: 150px;
+}
+
+@font-face {
+    font-family: "LeagueScript";
+    src : url(police/LeagueScript.otf);
+        }
+        
+@font-face {
+    font-family: "NewWaltDisney";
+    src : url(police/NewWaltDisney.ttf);
+        }
